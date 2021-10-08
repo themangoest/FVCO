@@ -1,0 +1,35 @@
+FVCO,,,
+Back PCB,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+2,"C1, C2",Electrolytic Capacitor,"package 100 mil [THT, electrolytic]; capacitance 10µF; voltage 6.3V"
+2,"C3, C14",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+3,"C5, C6, C7",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100pF; voltage 6.3V"
+3,"C8, C9, C10",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 68nF; voltage 6.3V"
+1,C11,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 4.7nF; voltage 6.3V"
+1,C12,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 10nF; voltage 6.3V"
+1,C13,Ceramic Capacitor,"package 1206 [SMD, multilayer]; capacitance 4.7µF; voltage 6.3V"
+1,D1,1N5819,package Melf DO-213 AA [SMD]; type Rectifier
+8,D2-D9,Schottky Diode,package 300 mil [THT]; type Schottky; part # BAT43
+1,IC2,Voltage Regulator LM1117,package sot223; features LDO; current 150mA; voltage adjustable; chip LM1117; variant sot223
+1,IC3,NJM2732,package SO08; true; chip label IC
+1,,Generic female header - 6 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 6; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 3 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 3; pin spacing 0.1in (2.54mm)"
+5,"R1, R2, R3, R6, R8",1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+1,R4,100 Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100Ω
+3,"R5, R7, R9",100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+1,R10,499k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 499kΩ
+2,"R11, R12",3.9k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 3.9kΩ
+1,R14,220 Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 220Ω
+1,R15,330k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 330kΩ
+1,,Arduino Nano (Rev3.0),type Arduino Nano (3.0); part # ATMEGA328P
+,,,
+Front PCB,,,
+Amount,Designator,Part Type,Properties
+4,KNOBS,,
+3,BLUE BANANA,,
+1,BLACK BANANA,,
+4,R1-R4,Rotary Potentiometer (Small),B10k - B100K
+4,standoff,11mm M3,FEMALE FEMALE
+2,standoff,10mm M3,FEMALE MALE
+6,MACHINE SCREW,6mm M3,
