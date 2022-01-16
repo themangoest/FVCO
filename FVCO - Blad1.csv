@@ -2,7 +2,7 @@ FVCO,,,
 Back PCB,,,
 Amount,Designator,Part Type,Properties
 1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
-2,"C1, C2",Electrolytic Capacitor,"package 100 mil [THT, electrolytic]; capacitance 10µF; voltage 6.3V"
+2,"C1, C2",Electrolytic Capacitor,"package 100 mil [THT, electrolytic]; capacitance 10µF; voltage 25V"
 2,"C3, C14",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
 3,"C5, C6, C7",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100pF; voltage 6.3V"
 3,"C8, C9, C10",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 68nF; voltage 6.3V"
@@ -11,7 +11,7 @@ Amount,Designator,Part Type,Properties
 1,C13,Ceramic Capacitor,"package 1206 [SMD, multilayer]; capacitance 4.7µF; voltage 6.3V"
 1,D1,1N5819,package Melf DO-213 AA [SMD]; type Rectifier
 8,D2-D9,Schottky Diode,package 300 mil [THT]; type Schottky; part # BAT43
-1,IC2,Voltage Regulator LM1117,package sot223; features LDO; current 150mA; voltage adjustable; chip LM1117; variant sot223
+1,IC2,Voltage Regulator LM1117 5v,package sot223; features LDO; current 150mA; voltage adjustable; chip LM1117; variant sot223
 1,IC3,NJM2732,package SO08; true; chip label IC
 1,,Generic female header - 6 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 6; pin spacing 0.1in (2.54mm)"
 1,,Generic female header - 3 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 3; pin spacing 0.1in (2.54mm)"
