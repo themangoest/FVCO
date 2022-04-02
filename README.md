@@ -12,3 +12,5 @@ freq CV: Modulation frequency CV
 level CV: Modulation amplitude CV
 V / oct (10bit, 5Vp-p)
 Output is 4Vp-p.
+
+Inspired by Hagiwo
